@@ -1,0 +1,154 @@
+
+
+
+ul {
+  font-family: 'Inconsolata', monospace;
+  list-style: none;
+  list-style-type: none;
+  color: #000000;
+}
+
+ul a {
+  list-style-type: none;
+text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+ul.navbar {
+
+  list-style-type: none; /* gets rid of dot in front of ul */
+  overflow: hidden;
+    /* try centering here */
+  background-color:  #ffffff;
+  padding: 0px 10px;
+}
+
+ul.navbar li a {
+  float: left;
+  text-decoration: none; /* gets rid of underline and makes all buttons capital, unordered list with children li inside with a child a */
+  padding: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+ul.navbar li a:active {
+  color: #000000;
+}
+
+
+ul.navbar li a:hover {
+  /* font-size: 72px; */
+  color: #ffffff;
+  background-color: #5f9ea0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+  background-color: #5f9ea0;
+  margin: 0;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1.div {
+  font-size: 30px;
+}
+
+ol {
+  font-family: 'Inconsolata', monospace;
+}
+
+h3{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3.small{
+  text-align: center;
+  font-size: 35px;
+}
+p {
+  text-align: left;
+  font-size: 25px;
+font-family: 'Lato', sans-serif;
+  margin-right: 50px;
+}
+
+.container{
+  margin: 0;
+  display: grid;
+
+}
+
+.h1_p {
+height: 600px;
+float: none;
+}
+
+.software {
+  background-color: #4d7e80;
+  height: 400px;
+}
+
+.contact{
+
+  background-color: #304f50;
+  height: 400px;
+
+}
+.teaching_content {
+  background-color: #436e70;
+  height: 400px;
+  float: none;
+}
+
+.prof_aff {
+  background-color: #395e60;
+  height: 400px;
+}
+
+
+.bfa {
+  background-color: #304f50;
+  height: 400px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+.right{
+  float: right;
+  width: 50%;
+  padding-left:
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l_half{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.r_half{
+  float: right;
+  width: 50%;
+  height: 100%;
+}

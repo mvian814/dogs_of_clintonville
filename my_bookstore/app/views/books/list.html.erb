@@ -1,0 +1,27 @@
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Pages</th>
+    <th>ISBN</th>
+    <th>Edit</th>
+    <th>Delete</th>
+
+  </tr>
+
+
+    <% @book.each do |book| %>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.pages %></td>
+      <td><%= book.isbn %></td>
+      <td><%= link_to "X", edit_book_path(book.id) %></td>
+      <td><%= link_to "X", delete_book_path(book.id), method: "delete" %></td>
+
+    </tr>
+
+
+
+
+    <% end %>
+</table>

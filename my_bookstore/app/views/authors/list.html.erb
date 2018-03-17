@@ -1,0 +1,25 @@
+
+<table>
+  <tr>
+    <th>Name</th>
+
+    <th>Edit</th>
+    <th>Delete</th>
+
+  </tr>
+
+
+    <% @author.each do |author| %>
+    <tr>
+      <td><%= author.name %></td>
+
+      <td><%= link_to "X", edit_author_path(author.id) %></td>
+      <td><%= link_to "X", delete_author_path(author.id), method: "delete" %></td>
+
+    </tr>
+
+
+
+
+    <% end %>
+</table>
